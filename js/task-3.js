@@ -3,7 +3,6 @@ function checkForSpam(message){
     var myMessage   = message.toLowerCase();  
 
     return (myMessage.includes('spam') || myMessage.includes('sale'));
-
 }
 
 
